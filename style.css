@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hello {
+    background: red;
+    height: 150px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    /* color: red; */
+    font-family: StratumBold, Arial, sans-serif;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    position: sticky;
+}
+
+a:hover {
+    background: none !important;
+    color: rgb(287, 66, 66) !important;
+    transition: 0.75s;
+}
+
+ul {
+    padding: 25px 20px;
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.pic {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/jo89zfzqi9t51.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    
+}
+
+.about-me {
+    width: 250px;
+    background: red;
+    padding: 20px;
+}
+
+.about-me h1 {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.about-me p {
+    margin-top: 10px;
+}
